@@ -12,6 +12,29 @@ export const styles = StyleSheet.create({
     marginBottom: 8,
   },
 
+  circle: {
+    width: 24,
+    height: 24,
+    marginRight: 16,
+    borderRadius: 16,
+  },
+
+  emptyCircle: {
+    borderWidth: 2,
+    borderColor: theme.colors.BLUE_LIGHT,
+  },
+
+  checkedCircle: {
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: theme.colors.PURPLE_LIGHT,
+  },
+
+  checkIcon: {
+    width: 12,
+    height: 9,
+  },
+
   text: {
     flex: 1,
     textAlign: "left",
