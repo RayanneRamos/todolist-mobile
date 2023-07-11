@@ -3,6 +3,7 @@ import logoImage from "../../assets/logo.png";
 import plusImage from "../../assets/plus.png";
 import { styles } from "./styles";
 import theme from "../../styles/theme";
+import { TaskList } from "../../components/TaskList";
 
 export function Home() {
   return (
@@ -29,6 +30,7 @@ export function Home() {
             <Text style={styles.valueCounter}>1</Text>
           </View>
         </View>
+        <TaskList />
       </View>
     </View>
   );
