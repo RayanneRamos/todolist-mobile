@@ -55,4 +55,34 @@ export const styles = StyleSheet.create({
     height: 16,
     width: 16,
   },
+
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    paddingBottom: 20,
+  },
+
+  headerItem: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
+  textBlue: {
+    fontWeight: "bold",
+    color: theme.colors.BLUE_LIGHT,
+  },
+
+  textPurple: {
+    fontWeight: "bold",
+    color: theme.colors.PURPLE_LIGHT,
+  },
+
+  valueCounter: {
+    marginLeft: 8,
+    borderRadius: 16,
+    paddingVertical: 2,
+    paddingHorizontal: 12,
+    backgroundColor: theme.colors.GRAY_400,
+    color: theme.colors.GRAY_100,
+  },
 });

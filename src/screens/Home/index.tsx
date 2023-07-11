@@ -19,6 +19,16 @@ export function Home() {
             <Image source={plusImage} style={styles.buttonIcon} />
           </TouchableOpacity>
         </View>
+        <View style={styles.header}>
+          <View style={styles.headerItem}>
+            <Text style={styles.textBlue}>Criadas</Text>
+            <Text style={styles.valueCounter}>2</Text>
+          </View>
+          <View style={styles.headerItem}>
+            <Text style={styles.textPurple}>Concluídas</Text>
+            <Text style={styles.valueCounter}>1</Text>
+          </View>
+        </View>
       </View>
     </View>
   );
