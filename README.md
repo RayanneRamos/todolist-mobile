@@ -16,6 +16,12 @@
 
 [TodoList]() é o primeiro projeto desenvolvido durante o bootcamp ignite da [Rocketseat](https://www.rocketseat.com.br/) que foca nas tecnologias ReactJS, React Native e NodeJS. Consiste em criar uma aplicação mobile que imita um todolist para você listar as suas tarefas diárias e dar check nas tarefas feitas.
 
+## 🌟 Funcionalidades
+
+1. **Listagem de tarefas diárias, permitindo ao usuário adicionar novas tarefas facilmente**
+2. **Marcação de tarefas como concluídas com um simples clique** 
+3. **Disponível para Android e iOS, garantindo acessibilidade em dispositivos móveis**
+
 ## 🧪 Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
